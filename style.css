@@ -94,3 +94,48 @@ h1,h2,h3{
     border-radius: 0px 8px 8px 0px;
 }
 
+@media(max-width:500px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .icerik{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .column1{
+        width: 100%;
+        border-radius: 0px 0px 8px 8px;
+        padding: 40px 25px;
+    }
+
+    .column2{
+        width: 100%;
+        height: 300px;
+        border-radius: 8px 8px 0px 0px;
+        order: 1;
+    }
+
+    .baslik1{
+        font-size:36px;
+        text-align: center;
+    }
+
+    .aciklama{
+        text-align: center;
+    }
+
+    .basliklar{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .baslik2,.baslik3{
+        margin-bottom: 30px;
+    }
+}
